@@ -29,10 +29,14 @@
     <ClInclude Include="src\Task2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Task3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\Task5Data.txt" />
     <Text Include="data\Task1Data.txt" />
     <Text Include="data\Task2Data.txt" />
+    <Text Include="data\Task3Data.txt" />
   </ItemGroup>
 </Project>
