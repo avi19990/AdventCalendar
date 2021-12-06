@@ -23,5 +23,12 @@
     <ClInclude Include="src\Task5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Task1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\Task5Data.txt" />
+    <Text Include="data\Task1Data.txt" />
   </ItemGroup>
 </Project>
