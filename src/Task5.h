@@ -13,7 +13,10 @@ std::vector<Vent> readVentsData(std::string filename)
 {
 	std::ifstream input(filename);
 	if (!input.is_open())
+	{
+		std::cout << "Can't open file: " << filename << std::endl;
 		return std::vector<Vent>();
+	}
 
 	std::vector<Vent> vents;
 	while (!input.eof())
@@ -85,10 +88,7 @@ void Task5(std::string filename, int width, int heigth)
 {
 	std::vector<Vent> vents = readVentsData(filename);
 	if (vents.size() == 0)
-	{
-		std::cerr << "Can't open file: " << filename << std::endl;
 		return;
-	}
 
 	std::cout << "Solution to task 5 (part1): " << countDangerousVents(vents, width, heigth, false) << std::endl;
 	std::cout << "Solution to task 5 (part2): " << countDangerousVents(vents, width, heigth, true) << std::endl;
