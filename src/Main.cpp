@@ -9,7 +9,7 @@ int main()
 	switch (taskToSolve)
 	{
 	case 5:
-		std::cout << "Solution to task " << taskToSolve << ": " << Task5() << std::endl;
+		Task5("data/Task5Data.txt", 1000, 1000);
 		break;
 	}
 }
