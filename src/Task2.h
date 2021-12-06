@@ -72,6 +72,6 @@ void Task2(std::string filename)
 	if (commands.size() == 0)
 		return;
 
-	std::cout << "Solution to task 1 (part1): " << calculateDestinationMultiplied(commands) << std::endl;
-	std::cout << "Solution to task 1 (part2): " << calculateDestinationMultipliedWithAim(commands) << std::endl;
+	std::cout << "Solution to task 2 (part1): " << calculateDestinationMultiplied(commands) << std::endl;
+	std::cout << "Solution to task 2 (part2): " << calculateDestinationMultipliedWithAim(commands) << std::endl;
 }
