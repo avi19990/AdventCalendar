@@ -148,6 +148,7 @@
     <ClInclude Include="src\Task4.h" />
     <ClInclude Include="src\Task5.h" />
     <ClInclude Include="src\Task6.h" />
+    <ClInclude Include="src\Task7.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\Task1Data.txt" />
@@ -156,6 +157,8 @@
     <Text Include="data\Task4Data.txt" />
     <Text Include="data\Task5Data.txt" />
     <Text Include="data\Task6Data.txt" />
+    <Text Include="data\Task7Data.txt" />
+    <Text Include="data\TestData.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

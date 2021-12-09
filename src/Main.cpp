@@ -6,10 +6,11 @@
 #include "Task4.h"
 #include "Task5.h"
 #include "Task6.h"
+#include "Task7.h"
 
 int main()
 {
-	int taskToSolve = 6;
+	int taskToSolve = 7;
 
 	switch (taskToSolve)
 	{
@@ -30,6 +31,9 @@ int main()
 		break;
 	case 6:
 		Task6("data/Task6Data.txt");
+		break;
+	case 7:
+		Task7("data/Task7Data.txt");
 		break;
 	}
 }
