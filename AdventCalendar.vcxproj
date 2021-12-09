@@ -149,6 +149,7 @@
     <ClInclude Include="src\Task5.h" />
     <ClInclude Include="src\Task6.h" />
     <ClInclude Include="src\Task7.h" />
+    <ClInclude Include="src\Task8.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\Task1Data.txt" />
@@ -158,6 +159,7 @@
     <Text Include="data\Task5Data.txt" />
     <Text Include="data\Task6Data.txt" />
     <Text Include="data\Task7Data.txt" />
+    <Text Include="data\Task8Data.txt" />
     <Text Include="data\TestData.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
