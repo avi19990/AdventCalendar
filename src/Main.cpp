@@ -8,10 +8,11 @@
 #include "Task6.h"
 #include "Task7.h"
 #include "Task8.h"
+#include "Task9.h"
 
 int main()
 {
-	int taskToSolve = 8;
+	int taskToSolve = 9;
 
 	switch (taskToSolve)
 	{
@@ -38,6 +39,9 @@ int main()
 		break;
 	case 8:
 		Task8("data/Task8Data.txt");
+		break;
+	case 9:
+		Task9("data/Task9Data.txt", 100, 100);
 		break;
 	}
 }
