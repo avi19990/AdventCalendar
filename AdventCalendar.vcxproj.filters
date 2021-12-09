@@ -35,6 +35,9 @@
     <ClInclude Include="src\Task4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Task6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\Task5Data.txt" />
@@ -42,5 +45,6 @@
     <Text Include="data\Task2Data.txt" />
     <Text Include="data\Task3Data.txt" />
     <Text Include="data\Task4Data.txt" />
+    <Text Include="data\Task6Data.txt" />
   </ItemGroup>
 </Project>

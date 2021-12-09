@@ -5,10 +5,11 @@
 #include "Task3.h"
 #include "Task4.h"
 #include "Task5.h"
+#include "Task6.h"
 
 int main()
 {
-	int taskToSolve = 4;
+	int taskToSolve = 6;
 
 	switch (taskToSolve)
 	{
@@ -26,6 +27,9 @@ int main()
 		break;
 	case 5:
 		Task5("data/Task5Data.txt", 1000, 1000);
+		break;
+	case 6:
+		Task6("data/Task6Data.txt");
 		break;
 	}
 }
